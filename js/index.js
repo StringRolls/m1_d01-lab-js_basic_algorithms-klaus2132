@@ -28,8 +28,8 @@ for(i = 0; i < hacker1.length; i++) {
     spaceOut.trim()
 }
 console.log(spaceOut.toUpperCase());
-// Iteration 3.2 'Name' to 'emaN'
 
+// Iteration 3.2 'Name' to 'emaN'
 let newString ="";
 for(let i = hacker1.length - 1; i >= 0; i--){
     newString += hacker1[i];
@@ -37,14 +37,11 @@ for(let i = hacker1.length - 1; i >= 0; i--){
 console.log(newString);
 
 // Iteration 3.3 Lexicographic order
-
 if(hacker1 < hacker2){
     console.log(`The driver's name goes first.`)
-}
-else if(hacker2 < hacker1){
+} else if(hacker2 < hacker1){
     console.log(`Yo, the navigator goes first definitely.`)
-}
-else{
+} else{
     console.log(`What?! You both have the same name?`)
 }
 
