@@ -47,4 +47,5 @@ if(hacker1 < hacker2){
 
 // Bonus 1: Palindromes
 
+
 // Bonus 2: Lorem ipsum counter
